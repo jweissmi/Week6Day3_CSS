@@ -35,5 +35,87 @@ textarea {
 }
 
 .custom_colum {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
     column-count: 3;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+	width: 100%;
+}
+.span_2_of_3 {
+	width: 66.1%;
+}
+.span_1_of_3 {
+	width: 32.2%;
+}
+
+/*  GRID OF 9  */
+.span_9_of_9 {
+	width: 100%;
+}
+.span_8_of_9 {
+	width: 89%;
+}
+.span_7_of_9 {
+	width: 78%;
+}
+.span_6_of_9 {
+	width: 67%;
+}
+.span_5_of_9 {
+	width: 56%;
+}
+.span_4_of_9 {
+	width: 45%;
+}
+.span_3_of_9 {
+	width: 34%;
+}
+.span_2_of_9 {
+	width: 23%;
+}
+.span_1_of_9 {
+	width: 12%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { margin: 1% 0 1% 0%;}
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }

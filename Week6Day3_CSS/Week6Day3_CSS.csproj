@@ -133,7 +133,15 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Images\designco-mockup.png" />
+    <Content Include="Images\1Boat_down.jpg" />
+    <Content Include="Images\1Boat_down_left.jpg" />
+    <Content Include="Images\1Boat_left.jpg" />
+    <Content Include="Images\1Boat_right.jpg" />
+    <Content Include="Images\1Boat_right_down.jpg" />
+    <Content Include="Images\1Boat_up.jpg" />
+    <Content Include="Images\1Boat_up_left.jpg" />
+    <Content Include="Images\1Boat_up_right.jpg" />
+    <Content Include="Images\3Boats_right.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
